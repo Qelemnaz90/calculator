@@ -1,0 +1,144 @@
+.all {
+    margin-left: 500px;
+    margin-top: 150px;
+    width: 500px;
+    background-color:darkgrey;
+    height: 550px;
+    border-radius: 10px;
+}
+#result{
+    width: 470px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 60px;
+    border-radius: 10px;
+    font-size: xx-large;
+}
+
+
+.nums {
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color:lavender;
+    
+}
+
+
+.div3 {
+    display: flex;
+    justify-content: space-around ;
+}
+
+#eight {
+    width:200px ;
+}
+
+#nine {
+    width: 200px;
+}
+
+.ops {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    
+}
+
+#op:hover{
+    height: 50px;
+}
+
+#op {
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: coral;
+
+}
+
+.equal {
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: darkgreen;
+}
+
+.delete {
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: brown;
+}
+
+@media only screen and (max-width: 420px){
+
+    .all {
+        margin-left: 50px;
+        margin-top: 150px;
+        width: 200px;
+        background-color:darkgray;
+        height: 500px;
+        border-radius: 5px;
+    }
+
+    #result{
+        width: 180px;
+        height: 30px;
+        margin-left: 10px;
+        margin-top: 60px;
+        border-radius: 5px;
+        font-size:medium;
+    }
+
+    .nums {
+        width: 30px;
+        height: 50px;
+        margin-left: 10px;
+        margin-top: 50px;
+        border-radius: 5px;
+        background-color:lavender;
+        
+    }
+    
+
+    #eight {
+        width:70px ;
+        
+    }
+    
+    #nine {
+        width: 70px;
+        margin-right: 20px;
+    }
+
+
+    .ops {
+        display: flex;
+        
+        margin-top: 40px;
+        
+    }
+    
+    #op:hover{
+        height: 50px;
+    }
+
+
+    .equal {
+        width: 30px;
+        height: 60px;
+        border-radius: 10px;
+        background-color: darkgreen;
+    }
+    
+    .delete {
+        width: 30px;
+        height: 60px;
+        border-radius: 10px;
+        background-color: brown;
+    }
+
+}
